@@ -17,5 +17,5 @@ __all__ = [
     "convince_method",
 ]
 
-__patch_letter__ = ""
+__patch_letter__ = "a"
 __version__ = str(len(__all__)) + __patch_letter__

@@ -9,7 +9,7 @@ Because who said evenness couldn't be entertaining?
 * Pinpoint accuracy: Our algorithms are so precise that they can detect evenness with laser-like precision. No room for error here!
 * Supports negative integers: With the power of `abs`, our collection does not discriminate based on sign.
 It's all about number inclusivity, even for those negative numbers feeling a bit left out.
-* Supports most numbers: Most of our algorithms work pretty fast with most integers. We just hope that you will not use huge numbers.
+* Supports most big numbers: Most of our algorithms work pretty fast with most big integers. We just hope that you will not use huge numbers.
 And you will not use them. Right?
 
 ## Usage

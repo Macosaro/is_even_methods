@@ -47,7 +47,7 @@ def range_method(x: int) -> bool:
     x = abs(x)
 
     even = True
-    for num in range(0, 2147483648):
+    for num in range(2**31):
         if num == x:
             break
         even = not even
@@ -56,7 +56,7 @@ def range_method(x: int) -> bool:
 
 
 def fast_range_method(x: int) -> bool:
-    return abs(x) in range(0, 2147483648, 2)
+    return abs(x) in range(0, 2**31, 2)
 
 
 def input_method(x: int) -> bool:
